@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.hell {
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+@keyframes move {
+    0% {top: 0px; left: 0px;}
+    50% {top: 300px; left: 0px}
+    100% {top: 300px; left: 300px;}
+    75% {top: 0px; left: 300px}
+    100% {top: 0px; left: 0px;}
+}
+
+@keyframes down {
+    0% {top: 0px; left: 0px;}
+    50% {top: 150px; left: 0px}
+    100% {top: 300px; left: 0px}
+}
+
+@keyframes up {
+    0% {down: 0px; left: 0px;}
+    50% {down: 150px; left: 0px}
+    100% {down: 300px; left: 0px}
+} 
+
+@keyframes right {
+    0% {top: 0px; left: 0px;}
+    50% {top: 0px; left: 150px}
+    100% {top: 0px; left: 300px}
+}
+
+@keyframes left {
+    0% {top: 0px; left: 0px;}
+    50% {top: 0px; right: 150px}
+    100% {top: 0px; right: 300px}
+}
